@@ -11,13 +11,16 @@ wrapper.py reads text file and parse automatically
 
 ./wrapper.py -s $(TEXTFILE)
 
----------------------------------
+######## runnerfile.txt ########
 
 10 0 ./stream 1000
 
 20 1 ./hello 200
 
----------------------------------
+################################
+
+./wrapper.py -s runnerfile.txt
+
 
 wrapper reads file like...
 
